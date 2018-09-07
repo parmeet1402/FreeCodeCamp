@@ -8,4 +8,4 @@ function convertHTML(str) {
     .replace(/'/g, `&apos;`);
 }
 
-console.log(convertHTML("Hamburgers < Pizza < Tacos"));
+convertHTML("Hamburgers < Pizza < Tacos");
